@@ -17,6 +17,6 @@ diameter = document.getElementById("diameterc").value
 diameter = +diameter;
 let radius = diameter/2;
 let π = 3.14;
-circumference = 2*π*radius;
+circumference = π*2*radius;
 alert(circumference)
 }
